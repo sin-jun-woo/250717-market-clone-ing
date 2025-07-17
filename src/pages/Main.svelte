@@ -1,6 +1,6 @@
 <script>
-  let hour = new Date().getHours();
-  let min = new Date().getMinutes();
+  let hour = new Date().getHours().toString().padStart(2, "0");
+  let min = new Date().getMinutes().toString().padStart(2, "0");
 </script>
 
 <header>
